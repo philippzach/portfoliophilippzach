@@ -43,7 +43,7 @@ export default ({ data }) => (
           </Title>
           <Modal>
             <video
-              src="https://i.imgur.com/G959Mn6.mp4"
+              src="https://i.imgur.com/QzSPpgx.mp4"
               playsInline
               loop
               autoPlay

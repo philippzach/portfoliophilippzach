@@ -25,7 +25,6 @@ background-image: url(${props => props.src});
     }
     @media (max-width:600px) {
 		background-position:50% 0%;
-		background-size: cover;
 		height: 400px;
 	}
 `;
@@ -59,6 +58,9 @@ export const Content = styled.div`
 
 export const Header = styled.div`
 margin-bottom: 2em;
+@media (max-width: 600px) {
+  margin-bottom: 1em;
+}
 `;
 
 export const Descripton = styled.p`
