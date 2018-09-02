@@ -19,7 +19,7 @@ const CardSection = () => (
     <Margin>
     <CenterBox>
         <Right>
-            <Title tag="h2" size="large">& enthusiastic in what I do</Title>
+            <Title tag="h2" size="large">& am enthusiastic in what I do</Title>
         </Right>
     </CenterBox>
    <Items />

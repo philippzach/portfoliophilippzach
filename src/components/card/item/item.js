@@ -4,6 +4,7 @@ import Kite from '../../../images/kitecover-sm.jpg';
 import Acai from '../../../images/acai.jpg';
 import Sofia from '../../../images/sofiaportfolio.jpg';
 import Videos from '../../../images/videos.jpg';
+import Modal from '../../modal/modal';
 
 const Items = () => (
     <div>
@@ -54,6 +55,11 @@ const Items = () => (
         </Header>
         <Descripton>Established and ongoing kitesufing career for 8 years. Projects done with Core Kiteboarding, GoPro and Volkswagen, among others.</Descripton>
         <Button>Show Me!</Button>
+        <Modal>
+            <div>
+                <h1>look at this modal</h1>
+            </div>
+        </Modal>
         </Content>
         </ColorOverlay>
       </Single3>

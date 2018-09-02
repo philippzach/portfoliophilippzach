@@ -150,6 +150,11 @@ const Head = ({
       sizes="16x16"
       type="image/png"
     />
+    <link 
+    rel="icon" 
+    href="/icons/favicon.ico" 
+    type="image/x-icon"
+    />
 
     <script type="application/ld+json">
       {JSON.stringify(

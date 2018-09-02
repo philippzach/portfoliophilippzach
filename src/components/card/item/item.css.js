@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Img from 'gatsby-image'
 
 export const Heading = styled.h3`
 font-weight: 600;
@@ -33,10 +34,10 @@ export const ColorOverlay = styled.div`
     width:100%;
 	height: 100%;
 	border-radius: 8px;
-	background: linear-gradient(to right, rgba(42,159,255,0) 0%, white 60%, white 200%);
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%, white 60%, white 200%);
     background-blend-mode: multiply;
     @media (max-width:600px) {
-		background: linear-gradient(to bottom, rgba(42,159,255,0) 0%, white 60%, white 200%);
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, white 60%, white 200%);
 	}
 `;
 
@@ -104,3 +105,19 @@ export const Button = styled.button`
     background-color: #f9f9f9;
   }
 `;
+
+export const BgImage = styled(Img)`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100vh; // or whatever
+
+  // Adjust image positioning (if image covers area with defined height) and add font-family for polyfill
+  & > img {
+    object-fit: cover !important; // or whatever
+    object-position: 0% 0% !important; // or whatever
+    font-family: 'object-fit: cover !important; object-position: 0% 0% !important;' // needed for IE9+ polyfill
+  }
+`

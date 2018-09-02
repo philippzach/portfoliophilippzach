@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Container } from '../background/background.css';
 import BackgroundBottom from '../../images/backgroundbottom.png';
 import { Phone, CenterBox, Contact, Email, Button, RocketIcon, BitcoinIcon, ReactIcon, GithubIcon, InstagramIcon, YoutubeIcon, TwitterIcon, LinkedinIcon, MediumIcon, FacebookIcon, PrimaryIcons, SocialIcons, PrimaryContainer } from './footer.css';
@@ -24,32 +23,31 @@ const Footer = () => (
         <CenterBox>
         <PrimaryContainer>
             <PrimaryIcons>
-                <RocketIcon size="30" title="Growth"/>
-                <ReactIcon size="30" title="React" />
-                <BitcoinIcon size="30" title="Bitcoin" />
-                <GithubIcon size="30" title="Github" />
+                <RocketIcon size="26" title="Growth"/>
+                <ReactIcon size="26" title="React" />
+                <BitcoinIcon size="26" title="Bitcoin" />
+                <GithubIcon size="26" title="Github" />
             </PrimaryIcons>
             </PrimaryContainer>
             <SocialIcons>
                 <a href="https://instagram.com/philipp.zach">
-                <InstagramIcon size="48" title="Instagram" />
+                <InstagramIcon size="36" title="Instagram" />
                 </a>
                 <a href="https://facebook.com/philipp.zach">
-                <FacebookIcon size="38" title="Facebook" />
+                <FacebookIcon size="30" title="Facebook" />
                 </a>
                 <a href="https://youtube.com/Hoferino">
-                <YoutubeIcon size="48" title="Youtube" />
+                <YoutubeIcon size="36" title="Youtube" />
                 </a>
                 <a href="https://twitter.com/waimeazach">
-                <TwitterIcon size="48" title="Twitter" />
+                <TwitterIcon size="36" title="Twitter" />
                 </a>
                 <a href="https://www.linkedin.com/in/philipp-zach-078059120/">
-                <LinkedinIcon size="48" title="Linkedin" />
+                <LinkedinIcon size="34" title="Linkedin" />
                 </a>
                 <a href="https://medium.com/@filippzach">
-                <MediumIcon size="48" title="Medium" />
+                <MediumIcon size="36" title="Medium" />
                 </a>
-                
             </SocialIcons>
             <Phone>+43 (664) 129 6232</Phone>
             <Contact>Copyright © Philipp Zach. All rights reserved</Contact>
