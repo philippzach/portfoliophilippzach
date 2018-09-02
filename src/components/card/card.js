@@ -7,6 +7,7 @@ import Items from './item/item';
 
 const Right = styled.div`
 text-align: right;
+max-width: 900px;
 `;
 
 const Margin = styled.div`
@@ -18,7 +19,7 @@ const CardSection = () => (
     <Margin>
     <CenterBox>
         <Right>
-            <Title tag="h2" size="large">& am enthusiastic in what I do</Title>
+            <Title tag="h2" size="large">& enthusiastic in what I do</Title>
         </Right>
     </CenterBox>
    <Items />

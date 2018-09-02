@@ -1,10 +1,15 @@
 import React from 'react';
 import CenterBox from '../centerbox/centerbox';
+import { BoxContainer } from '../box/box.css';
 import Box from '../box/box';
 import Title from '../title/title';
 //import BackgroundBall from '../../images/b1.png';
 //import Background from '../background/background';
 import styled from 'styled-components';
+
+const PaddingBox = styled(BoxContainer)`
+padding: 2rem 2rem;
+`;
 
 const Paragraph = styled.div`
 line-height: 1.7;
@@ -75,7 +80,7 @@ const WhoAmI = () => (
         </Box>
     </CenterBox>
     <CenterBox>
-        <Box>
+        <PaddingBox>
         <Paragraph>
         <p>
         I’m a passionate <Bold>Growth Hacker</Bold> and <Bold>Front End Developer</Bold> from Austria, spending my precious moment on earth between Hawaii and Bali.
@@ -92,7 +97,7 @@ const WhoAmI = () => (
         <Button>Take a look at my Resume</Button>
         </p>
         </Paragraph>
-        </Box>
+        </PaddingBox>
     </CenterBox>
     </Right>
     </Margin>

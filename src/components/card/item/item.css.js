@@ -67,8 +67,11 @@ export const Descripton = styled.p`
 font-weight: 300;
 	opacity: .65;
   line-height: 1.40;
+  @media (max-width: 375px) {
+    margin-bottom: 0.5em;
+  }
   @media (max-width: 420px) {
-    margin-bottom: 0;
+    margin-bottom: 1em;
   }
 `;
 
