@@ -78,11 +78,11 @@ const WhoAmI = () => (
         <Box>
         <Paragraph>
         <p>
-        I’m a <Bold>Growth Hacker</Bold> and <Bold>Front End Developer</Bold> from Austria, spending my precious time on earth between Hawaii and Bali.
+        I’m a passionate <Bold>Growth Hacker</Bold> and <Bold>Front End Developer</Bold> from Austria, spending my precious moment on earth between Hawaii and Bali.
         Currently, I'm most interested in Blockchain Tech, Growth Marketing and React.
         </p>
         <p>
-        Researching trends, growing online businesses and analyzing data are my biggest skills;
+        <Bold>Researching trends</Bold>, <Bold>growing online businesses</Bold> and <Bold>analyzing data</Bold> are my most sophisticated skills;
         I love to answer any realted questions or just chat about innovative ideas and projects.
         </p>
         <p>

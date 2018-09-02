@@ -1,19 +1,21 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from 'components/layout';
-import Box from 'components/box';
+import { BoxContainer } from '../components/box/box.css';
 import Head from 'components/head';
+import ContactForm from 'components/contact';
+import styled from 'styled-components';
+
+const MarginBox = styled(BoxContainer)`
+margin: auto;
+`;
 
 export default ({ data }) => (
   <Layout>
     <Head pageTitle={data.aboutJson.title} />
-    <Box>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: data.aboutJson.content.childMarkdownRemark.html,
-        }}
-      />
-    </Box>
+    <MarginBox>
+      <ContactForm/>
+    </MarginBox>
   </Layout>
 );
 
