@@ -34,7 +34,7 @@ export default class Modal extends PureComponent {
   }
 
   render() {
-    const { children, visible, toggleModal } = this.props;
+    const { children, visible, toggleModal, text } = this.props;
 
     if (typeof document !== `undefined`) {
       this.disableScrolling(visible);
@@ -42,7 +42,7 @@ export default class Modal extends PureComponent {
 
     return (
       <>
-        <Button onClick={toggleModal}>Show Me!</Button>
+        <Button onClick={toggleModal}>{text}</Button>
 
         <Dialog
           aria-hidden={!visible}
