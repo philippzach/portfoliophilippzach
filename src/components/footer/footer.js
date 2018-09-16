@@ -45,7 +45,7 @@ const Footer = () => (
                 <a href="https://www.linkedin.com/in/philipp-zach-078059120/">
                 <LinkedinIcon size="34" title="Linkedin" />
                 </a>
-                <a href="https://medium.com/@filippzach">
+                <a href="https://medium.com/@philippzach">
                 <MediumIcon size="36" title="Medium" />
                 </a>
             </SocialIcons>
