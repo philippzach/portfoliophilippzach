@@ -94,7 +94,7 @@ const WhoAmI = () => (
         Are you currently looking for a Growth Hacker or Front End Dev for your project?
         </p>
         <p><Bold> Let's see if I'm the right fit for your team!</Bold>
-        <Button>Take a look at my Resume</Button>
+        <a target="_blank" rel="noopener noreferrer" href="http://attachments.angel.co/2346995-c2f2eba1ff393b1421bab5e817d7fc11.pdf?1537066599"><Button>Take a look at my Resume</Button></a>
         </p>
         </Paragraph>
         </PaddingBox>
