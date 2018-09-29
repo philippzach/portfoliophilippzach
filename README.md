@@ -1,4 +1,4 @@
-# Portfolio Website made with gatsby-universal Starter
+# Portfolio Website 
 
 You can access this portfolio online at https://philippzach.com.
 
