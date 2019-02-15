@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Single3, ColorOverlay, Content, Header, Descripton, Heading } from './item.css';
 //import Kite from '../../../images/kitecover-sm.jpg';
 import Acai from '../../../images/acai.jpg';
-import Sofia from '../../../images/sofiaportfolio.jpg';
+import Sofia from '../../../images/sofiaportfolio_copy.jpg';
 import Videos from '../../../images/videos.jpg';
 
 const Items = () => (
