@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Single3, ColorOverlay, Content, Header, Descripton, Heading } from './item.css';
 //import Kite from '../../../images/kitecover-sm.jpg';
 import Acai from '../../../images/acai.jpg';
-//import Sofia from '../../../images/sofiaportfolio.jpg';
+import Sofia from '../../../images/sofiaportfolio.jpg'
 import Videos from '../../../images/videos.jpg';
 
 const Items = () => (
@@ -20,7 +20,7 @@ const Items = () => (
         </Content>
         </ColorOverlay>
       </Single3>
-      <Single3 src={Acai}>
+      <Single3 src={Sofia}>
         <ColorOverlay>
         <Content>
         <Header>
