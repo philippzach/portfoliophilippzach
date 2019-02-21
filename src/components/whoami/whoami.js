@@ -3,6 +3,7 @@ import CenterBox from '../centerbox/centerbox';
 import { BoxContainer } from '../box/box.css';
 import Box from '../box/box';
 import Title from '../title/title';
+import Resumee from '../../../static/philipp_zach_resumee_curriculum.pdf';
 //import BackgroundBall from '../../images/b1.png';
 //import Background from '../background/background';
 import styled from 'styled-components';
@@ -94,7 +95,7 @@ const WhoAmI = () => (
         Are you currently looking for a Growth Hacker or Front End Dev for your project?
         </p>
         <p><Bold> Let's see if I'm the right fit for your team!</Bold>
-        <a target="_blank" rel="noopener noreferrer" href="http://attachments.angel.co/2346995-c2f2eba1ff393b1421bab5e817d7fc11.pdf?1537066599"><Button>Take a look at my Resume</Button></a>
+        <a href={Resumee}><Button>Take a look at my Resume</Button></a>
         </p>
         </Paragraph>
         </PaddingBox>
