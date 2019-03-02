@@ -53,7 +53,7 @@ const Head = ({
     <meta content={pageTitleFull} name="twitter:text:title" />
     <meta content={canonical} property="og:url" />
     <meta content={canonical} name="twitter:url" />
-    <link rel="canonical" href={canonical} />
+    {/* <link rel="canonical" href={canonical} /> */}
 
     <meta content={imageUrl || `${siteUrl}/social.png`} property="og:image" />
     <meta content="1024" property="og:image:width" />
@@ -65,28 +65,10 @@ const Head = ({
     <meta content="1024" property="og:image:width" />
     <meta content="512" property="og:image:height" />
 
-    <meta content={themeColor} name="msapplication-TileColor" />
-    <meta content="/icons/mstile-70x70.png" name="msapplication-square70x70" />
-    <meta
-      content="/icons/mstile-144x144.png"
-      name="msapplication-square144x144"
-    />
-    <meta
-      content="/icons/mstile-150x150.png"
-      name="msapplication-square150x150"
-    />
-    <meta
-      content="/icons/mstile-310x150.png"
-      name="msapplication-wide310x150"
-    />
-    <meta
-      content="/icons/mstile-310x310.png"
-      name="msapplication-square310x310"
-    />
+    {/* <meta content={themeColor} name="msapplication-TileColor" /> */}
+    {/* <link href="/manifest.json" rel="manifest" /> */}
 
-    <link href="/manifest.json" rel="manifest" />
-
-    <link
+    {/* <link
       href="/icons/apple-touch-icon-57x57.png"
       rel="apple-touch-icon"
       sizes="57x57"
@@ -154,7 +136,7 @@ const Head = ({
     rel="icon" 
     href="/icons/favicon.ico" 
     type="image/x-icon"
-    />
+    /> */}
 
     <script type="application/ld+json">
       {JSON.stringify(

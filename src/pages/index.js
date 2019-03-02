@@ -12,8 +12,8 @@ import { graphql } from 'gatsby';
 import { Container } from 'components/background/background.css';
 import CardSection from 'components/card';
 import BackgroundMobile from '../images/backgroundtop-mobile-min.png';
-import Kite from '../images/kitecover-sm.jpg';
-import { Single3, ColorOverlay, Content, Header, Descripton, Heading } from '../components/card/item/item.css';
+//import Kite from '../images/kitecover-sm.jpg';
+//import { Single3, ColorOverlay, Content, Header, Descripton, Heading } from '../components/card/item/item.css';
 
 const BackgroundTop = styled(Container)`
 height: 75rem;
@@ -58,7 +58,7 @@ export default ({ data }) => (
       <WhoAmI />
       <Skills />
       <CardSection />
-      <Single3 src={Kite}>
+      {/* <Single3 src={Kite}>
         <ColorOverlay>
         <Content>
         <Header>
@@ -67,7 +67,7 @@ export default ({ data }) => (
         <Descripton>Established and ongoing kitesufing career for 6 years. Projects done with Core Kiteboarding, GoPro and Volkswagen, among others.</Descripton>
         </Content>
         </ColorOverlay>
-      </Single3>
+      </Single3> */}
       <Footer />
   </div>
 );

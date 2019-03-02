@@ -84,15 +84,15 @@ const WhoAmI = () => (
         <PaddingBox>
         <Paragraph>
         <p>
-        I’m a passionate <Bold>Growth Hacker</Bold> and <Bold>Front End Developer</Bold> from Austria, spending my precious moment on earth between Hawaii and Bali.
-        Currently, I'm most interested in Blockchain Tech, Growth Marketing and React.
+        I’m a passionate <Bold>Growth Strategist</Bold> and <Bold>Front End Engineer</Bold> from Austria, spending my precious moment on earth between tropical Islands and snowy Mountains.
+        I help emerging startups and digital companies to expand their comfort zone and develop a bulletproof growth strategy.
         </p>
         <p>
         <Bold>Researching trends</Bold>, <Bold>growing online businesses</Bold> and <Bold>analyzing data</Bold> are my most sophisticated skills;
-        I love to answer any realted questions or just chat about innovative ideas and projects.
+        I love to chat about innovative ideas and projects.
         </p>
         <p>
-        Are you currently looking for a Growth Hacker or Front End Dev for your project?
+        My approach is simple and my decisions based on data.
         </p>
         <p><Bold> Let's see if I'm the right fit for your team!</Bold>
         <a href={Resumee}><Button>Take a look at my Resume</Button></a>

@@ -13,7 +13,7 @@ const SkillCards = () => (
             <Card>
                 <Wrapper>
                     <ImageWrapper><Image alt="Rocket" src={Rocket}/></ImageWrapper>
-                    <Paragraph>Growth Hacking</Paragraph>
+                    <Paragraph>Growth Strategy</Paragraph>
                 </Wrapper>
             </Card>
         </OutsideCard>
@@ -31,7 +31,7 @@ const SkillCards = () => (
             <Card>
                 <Wrapper>
                     <ImageWrapper><Image alt="Photography & Video" src={Camera}/></ImageWrapper>
-                    <Paragraph>Photography & Video</Paragraph>
+                    <Paragraph>Content Production</Paragraph>
                 </Wrapper>
             </Card>
         </OutsideCard>

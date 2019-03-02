@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Philipp Zach | 🚀 Growth Hacker, 🕹️ Front End Developer & 💦 Athlete`,
+  siteTitle: `Philipp Zach | 🚀Growth Strategist, 🕹️Front End Engineer & 💦Athlete`,
   siteTitleShort: `Philipp Zach`,
-  siteDescription: `Philipp Zach's Portfolio and Resume as Growth Hacker, Front End Developer and Athlete for Video and Photo Productions`,
+  siteDescription: `Philipp Zach's Portfolio and Resume as Growth Strategist, Front End Engineer and Professional Athlete for Video and Photo Productions`,
   siteUrl: `https://philippzach.com`,
-  themeColor: `#000`,
-  backgroundColor: `#fff`,
+  themeColor: `#fff`,
+  backgroundColor: `#000`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {
