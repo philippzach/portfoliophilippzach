@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Image, OutsideCard, Wrapper, ImageWrapper, Paragraph, Row } from './item.css.js';
 import Rocket from '../../../images/rocket.svg';
 import Code from '../../../images/code.svg';
-import Camera from '../../../images/video.svg';
+import Camera from '../../../images/productdev.svg';
 import Data from '../../../images/data.svg';
 
 
@@ -21,7 +21,7 @@ const SkillCards = () => (
             <Card>
                 <Wrapper>
                     <ImageWrapper><Image alt="Programming" src={Code}/></ImageWrapper>
-                    <Paragraph>Front End Development</Paragraph>
+                    <Paragraph>UX & Development</Paragraph>
                 </Wrapper>
             </Card>
         </OutsideCard>
@@ -31,7 +31,7 @@ const SkillCards = () => (
             <Card>
                 <Wrapper>
                     <ImageWrapper><Image alt="Photography & Video" src={Camera}/></ImageWrapper>
-                    <Paragraph>Content Production</Paragraph>
+                    <Paragraph>Innovation Design</Paragraph>
                 </Wrapper>
             </Card>
         </OutsideCard>

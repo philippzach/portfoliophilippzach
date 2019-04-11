@@ -88,11 +88,11 @@ const WhoAmI = () => (
         I help emerging startups and digital companies to expand their comfort zone and develop a bulletproof growth strategy.
         </p>
         <p>
-        <Bold>Researching trends</Bold>, <Bold>growing online businesses</Bold> and <Bold>analyzing data</Bold> are my most sophisticated skills;
+        <Bold>Researching trends</Bold>, <Bold>designing products</Bold> and <Bold>growing digital companies</Bold> are my most sophisticated skills;
         I love to chat about innovative ideas and projects.
         </p>
         <p>
-        My approach is simple and my decisions based on data.
+        My approach is straightforward and my decisions based on data.
         </p>
         <p><Bold> Let's see if I'm the right fit for your team!</Bold>
         <a href={Resumee}><Button>Take a look at my Resume</Button></a>

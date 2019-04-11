@@ -15,9 +15,9 @@ const Items = () => (
           <Heading>Eloop Mobility</Heading>
         </Header>
         <Descripton>Growth Strategist and Front End Engineer for ELoop, a successfully crowdfunded e-mobility startup.</Descripton>
-        <a href="https://eloop.to">
+        {/* <a href="">
         <Button>Download the App</Button>
-        </a>
+        </a> */}
         </Content>
         </ColorOverlay>
       </Single3>
@@ -28,7 +28,7 @@ const Items = () => (
           <Heading>El Acai Europe®</Heading>
         </Header>
         <Descripton>Profitable E-Commerce business within 1 year. 10.000 page views generated with an average conversion rate of 2.5%</Descripton>
-        <a href="https://elacai.de">
+        <a href="https://sofiamoraes.com/elacaieurope">
         <Button>Go to elacai.de</Button>
         </a>
         </Content>
