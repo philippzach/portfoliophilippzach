@@ -1,9 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Philipp Zach | 🚀Growth Strategist, 🕹️Front End Engineer & 💦Athlete`,
+  siteTitle: `Philipp Zach | 🚀Growth Strategist, 🕹️JavaScript Engineer & 💦Athlete`,
   siteTitleShort: `Philipp Zach`,
-  siteDescription: `Philipp Zach's Portfolio and Resume as Growth Strategist, Front End Engineer and Professional Athlete for Video and Photo Productions`,
+  siteDescription: `Philipp Zach's Portfolio and Resume as Growth Strategist, JavaScript Engineer and Professional Athlete for Video and Photo Productions`,
   siteUrl: `https://philippzach.com`,
   imageUrl: path.resolve(__dirname, 'src/images/social.jpg'),
   themeColor: `#fff`,

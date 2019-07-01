@@ -2,19 +2,19 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-    margin-top: 50px;
+  margin-top: 50px;
 `;
 
 const InputName = styled.input`
   background-color: #fff;
   border: 1px solid #ddd;
   box-sizing: border-box;
-  font-size: .8em;
+  font-size: 0.8em;
   line-height: normal;
-  margin: 0 0 .5em;
-  padding: .9em;
+  margin: 0 0 0.5em;
+  padding: 0.9em;
   transition-delay: 0s;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
   transition-property: all;
   transition-timing-function: ease-in-out;
   vertical-align: baseline;
@@ -33,11 +33,11 @@ const InputText = styled.textarea`
   box-sizing: border-box;
   font-size: 1em;
   height: 10.3em;
-  margin: 0 0 .5em;
+  margin: 0 0 0.5em;
   overflow: auto;
-  padding: .9em;
+  padding: 0.9em;
   transition-delay: 0s;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
   transition-property: all;
   transition-timing-function: ease-in-out;
   vertical-align: top;
@@ -50,25 +50,25 @@ const InputText = styled.textarea`
 `;
 
 const Send = styled.input`
-text-transform: uppercase;
+  text-transform: uppercase;
   float: right;
-      font-size: 1.3rem;
-      -webkit-appearance: none;
-    background-color: #fff;
-    border-radius: 5px;
-    border: none;
-    color: #757575;
-    border: 1px solid #ddd;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 1.3rem;
-    font-weight: 500;
-    padding: 1rem 2rem;
-    text-transform: uppercase;
-    -webkit-transition: 0.2s background-color ease;
-    transition: 0.2s background-color ease;
+  font-size: 1.3rem;
+  -webkit-appearance: none;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  color: #757575;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s background-color ease;
+  transition: 0.2s background-color ease;
 
-    &:active,
+  &:active,
   &:focus {
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
     outline: none;
@@ -80,15 +80,14 @@ text-transform: uppercase;
 `;
 
 const Contact = () => (
-    <Container>
-        <form action="https://formspree.io/hello@philippzach.com"
-      method="POST">
-    <InputName type="text" name="name" placeholder="Your Name"/>
-    <InputName type="email" name="_replyto" placeholder="Email"/>
-    <InputText type="text" name="content" placeholder="How can I help you?"/>
-    <Send type="submit" value="Send"/>
+  <Container>
+    <form action="https://formspree.io/filippzach@gmail.com" method="POST">
+      <InputName type="text" name="name" placeholder="Your Name" />
+      <InputName type="email" name="_replyto" placeholder="Email" />
+      <InputText type="text" name="content" placeholder="How can I help you?" />
+      <Send type="submit" value="Send" />
     </form>
-    </Container>
-)
+  </Container>
+);
 
 export default Contact;
