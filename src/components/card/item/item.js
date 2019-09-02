@@ -10,6 +10,7 @@ import {
 } from './item.css';
 import Eloop from '../../../images/eloop-2.jpg';
 import Kite from '../../../images/kitecover-sm.jpg';
+import Mictic from '../../../images/mictic.jpg';
 import Acai from '../../../images/acai.jpg';
 import Sofia from '../../../images/sofiaportfolio_copy.jpg';
 import Videos from '../../../images/videos.jpg';
@@ -46,6 +47,21 @@ const Items = () => (
           </Descripton>
           <a href="https://swissstartupfactory.com">
             <Button>swissstartupfactory.com</Button>
+          </a>
+        </Content>
+      </ColorOverlay>
+    </Single3>
+    <Single3 src={Mictic}>
+      <ColorOverlay>
+        <Content>
+          <Header>
+            <Heading>Mictic AG</Heading>
+          </Header>
+          <Descripton>
+            E-Commerce Shop made with WooCommerce and Wordpress
+          </Descripton>
+          <a href="https://mictic.com">
+            <Button>Check out Mictic</Button>
           </a>
         </Content>
       </ColorOverlay>
